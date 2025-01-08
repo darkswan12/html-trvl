@@ -31,7 +31,7 @@ main p {
 
 .dropdown-item:hover {
     background-color: #f8f9fa;
-    color: #00a69c;
+    color: #800000;
 }
 
 /* Animasi untuk dropdown */
@@ -127,13 +127,13 @@ main p {
     gap: 8px;
 }
 .slick-next, .slick-prev {
-    background: #ffd082;
+    background: #660000;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
 .slick-next:hover, .slick-prev:hover {
-    background: #ffc052;
+    background: maroon;
 }
 
 .form-container {
@@ -144,7 +144,7 @@ main p {
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 .form-title {
-    color: #00a69c;
+    color: black;
     margin-bottom: 5px;
 }
 .form-subtitle {
@@ -157,7 +157,7 @@ main p {
     margin-bottom: 30px;
 }
 .btn-daftar {
-    background-color: #00a69c;
+    background-color: maroon;
     color: white;
     padding: 12px;
     border: none;
@@ -165,7 +165,7 @@ main p {
     border-radius: 8px;
 }
 .btn-daftar:hover {
-    background-color: #008f86;
+    background-color: #660000;
     color: white;
 }
 .form-control {
@@ -182,7 +182,7 @@ main p {
 }
 
 .footer {
-    background-color: #00a69c;
+    background-color: black;
     color: white;
     padding: 40px 0 20px 0;
 }

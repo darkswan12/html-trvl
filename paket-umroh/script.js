@@ -37,7 +37,7 @@ function generateCards(data) {
           <div class="card-body">
             <h5 class="card-title">${item.title}</h5>
             <p class="card-text">${item.price}</p>
-            <a href="#" class="btn btn-primary">View Detail</a>
+            <a href="../detail/detail.php" class="btn btn-primary">View Detail</a>
           </div>
         </div>
       </div>

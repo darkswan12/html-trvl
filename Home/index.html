@@ -7,23 +7,68 @@
     <title>Alfalah</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Navbar Placeholder -->
-    <div id="navbar-placeholder"></div>
+    <!-- components/navbar.html -->
+    <header class="bg-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../assets/logo1.jpeg" alt="Alfalah" style="width: 80px; height: auto;">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-dark" href="../Home/index.html">Beranda</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Paket Umroh
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../paket-umroh/index.html">Umroh Bronze</a></li>
+                            <li><a class="dropdown-item" href="#">Umroh Silver</a></li>
+                            <li><a class="dropdown-item" href="#">Umroh Radiant</a></li>
+                            <li><a class="dropdown-item" href="#">Umroh Ascendant</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-dark dropdown-toggle" href="#" id="jadwalDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Jadwal Umroh
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="jadwalDropdown">
+                            <li><a class="dropdown-item" href="#">Januari</a></li>
+                            <li><a class="dropdown-item" href="#">Februari</a></li>
+                            <li><a class="dropdown-item" href="#">Maret</a></li>
+                            <li><a class="dropdown-item" href="#">April</a></li>
+                            <li><a class="dropdown-item" href="#">Mei</a></li>
+                            <li><a class="dropdown-item" href="#">Juni</a></li>
+                            <li><a class="dropdown-item" href="#">Juli</a></li>
+                            <li><a class="dropdown-item" href="#">Agustus</a></li>
+                            <li><a class="dropdown-item" href="#">September</a></li>
+                            <li><a class="dropdown-item" href="#">Oktober</a></li>
+                            <li><a class="dropdown-item" href="#">November</a></li>
+                            <li><a class="dropdown-item" href="#">Desember</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Haji</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Kemitraan</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn" style="background-color: maroon; color: white;">Login Admin</a>
+        </div>
+    </header>
 
     <main class="container py-5">
         <div class="row align-items-center mb-5">
             <div class="col-md-6 text-center text-md-start">
-                <h2 class="text-success">No. 1 di Indonesia</h2>
+                <h2 style="color: maroon;">No. 1 di Indonesia</h2>
                 <h1 class="display-5 fw-bold">Umroh dan Haji mudah bersama Alfalah</h1>
                 <p class="lead">Permudah perjalanan ibadah Anda bersama Alfalah. Dengan ribuan jamaah yang telah kami
                     layani, kini saatnya Anda melangkah untuk umroh atau haji ke Tanah Suci.</p>
-                <a href="#" class="btn btn-warning btn-lg">Daftar Sekarang</a>
+                <a href="#" class="btn btn-lg" style="background-color: maroon; color: white;">Daftar Sekarang</a>
             </div>
             <div class="col-md-6">
                 <div class="position-relative">
@@ -37,7 +82,8 @@
                     <!-- Kolom Gambar -->
                     <div class="col-md-6">
                         <div class="position-relative">
-                            <div class="bg-info rounded shadow p-3" style="width: 100%; height: auto;">
+                            <div class="rounded shadow p-3"
+                                style="width: 100%; height: auto; background-color: maroon;">
                                 <img src="orang.jpg" alt="Alfalah" class="img-fluid rounded">
                             </div>
                         </div>
@@ -55,8 +101,8 @@
                             <li><i class="bi bi-check-circle"></i> We cover the Visa Fee and it's Included</li>
                         </ul>
                         <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-warning">Learn more</a>
-                            <a href="#" class="btn btn-outline-warning">Contact Us</a>
+                            <a href="#" class="btn" style="background-color: maroon; color: white;">Learn more</a>
+                            <a href="#" class="btn btn-outline-danger">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +117,7 @@
                     <h1 class="fw-bold">Akomodasi Pesawat</h1>
                     <p>Kami bekerja sama dengan beberapa penerbangan</p>
                     <div class="mt-3">
-                        <span class="badge bg-success text-white fs-6">
+                        <span class="badge text-white fs-6" style="background-color: maroon;">
                             <i class="bi bi-star-fill"></i> 5.0 Rating
                         </span>
                     </div>
@@ -287,15 +333,83 @@
 
     </main>
 
-    <!-- Footer Placeholder -->
-    <div id="footer-placeholder"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Brand & Description -->
+                <div class="col-md-3 mb-4">
+                    <div class="footer-brand">
+                        <span>Alfalah</span>
+                        <div style="font-size: 14px;">Haji & Umroh</div>
+                    </div>
+                    <p class="footer-description">Comfortable and Quiet Worship, Our Service No. 1 in Indonesia</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="footer-heading">Quicky</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Akomodasi Penerbangan</a></li>
+                        <li><a href="#">Fasilitas</a></li>
+                        <li><a href="#">Galeri</a></li>
+                    </ul>
+                </div>
+
+                <!-- Paket Umroh -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="footer-heading">Paket Umroh</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Umroh Bronze</a></li>
+                        <li><a href="#">Umroh Silver</a></li>
+                        <li><a href="#">Umroh Radiant</a></li>
+                        <li><a href="#">Umroh Ascendant</a></li>
+                    </ul>
+                </div>
+
+                <!-- Paket Haji -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="footer-heading">Paket Haji</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Haji Immortal</a></li>
+                        <li><a href="#">Haji Diamond</a></li>
+                        <li><a href="#">Haji Platinum</a></li>
+                    </ul>
+                </div>
+
+                <!-- Kantor Kami -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Kantor Kami</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Indonesia</a></li>
+                        <li><a href="#">Saudi Arabia</a></li>
+                        <li><a href="#">Uni Emirates Arab</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="row footer-bottom">
+                <div class="col-md-6">
+                    <small>Copyright © 2006 - 2023 Al Nasr Travel | All Reserved</small>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="script.js"></script>
-    <script src="../components/common.js"></script>
 </body>
 
 </html>
