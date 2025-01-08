@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.badge-wrapper {
+    margin-bottom: 1rem;
+}
+
+.badge-custom {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.badge-airline {
+    background-color: #e0f7f6;
+    color: #00a69c;
+}
+
+.badge-status {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.price-title {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.price-amount {
+    color: #00a69c;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature-list i {
+    font-size: 1.2rem;
+    color: #00a69c;
+}
+
+.btn-booking {
+    background-color: #00a69c;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-booking:hover {
+    background-color: #008f86;
+}
+
+.nav-tabs .nav-link {
+    color: #666;
+    border: none;
+    padding: 12px 20px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #00a69c;
+    border-bottom: 2px solid #00a69c;
+    font-weight: 500;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}

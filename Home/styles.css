@@ -1,0 +1,225 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+main h1 {
+    color: #333;
+}
+
+main p {
+    color: #555;
+}
+
+/* Styling untuk dropdown */
+.dropdown-menu {
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    border: none;
+    padding: 8px 0;
+}
+
+.dropdown-item {
+    padding: 8px 20px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #00a69c;
+}
+
+/* Animasi untuk dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.img-fluid {
+    max-height: 500px; /* Anda bisa mengubah angka ini sesuai kebutuhan */
+    object-fit: cover;
+    width: 100%;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list-unstyled li i {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.d-flex.gap-4 img {
+    width: 300px; /* Lebar gambar */
+    height: auto; /* Mempertahankan aspek rasio */
+    object-fit: cover; /* Menyesuaikan konten jika ukuran spesifik digunakan */
+}
+
+.facility-icon {
+    font-size: 2rem; /* Mengatur ukuran ikon */
+    color: #555; /* Warna ikon */
+}
+.card-body {
+    text-align: left; /* Teks rata kiri untuk tata letak horizontal */
+}
+
+.testimonial-card {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.badge-umrah {
+    background-color: #e0f7f6;
+    color: #00a69c;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.badge-haji {
+    background-color: #e3f5ff;
+    color: #0099ff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.rating {
+    color: #ffd700;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.customer-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.back-button {
+    background-color: #ffd082;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: #000;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.slick-next, .slick-prev {
+    background: #ffd082;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.slick-next:hover, .slick-prev:hover {
+    background: #ffc052;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.form-title {
+    color: #00a69c;
+    margin-bottom: 5px;
+}
+.form-subtitle {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.form-description {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.btn-daftar {
+    background-color: #00a69c;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+}
+.btn-daftar:hover {
+    background-color: #008f86;
+    color: white;
+}
+.form-control {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+.form-label {
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+.form-text {
+    color: #666;
+}
+
+.footer {
+    background-color: #00a69c;
+    color: white;
+    padding: 40px 0 20px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #e0f7f6;
+}
+.footer-heading {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li {
+    margin-bottom: 8px;
+}
+.footer-brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.social-icons a {
+    margin-left: 15px;
+    font-size: 18px;
+}

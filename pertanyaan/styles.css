@@ -1,0 +1,26 @@
+body {
+    background-color: #28b9a4; /* Background hijau tosca */
+    min-height: 100vh; /* Pastikan halaman memenuhi tinggi layar */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Tetap di bagian atas layar */
+    padding: 50px 0; /* Tambahkan ruang untuk background di bawah */
+}
+.container {
+    max-width: 900px; /* Batasi lebar maksimum kontainer */
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+.image-section img {
+    height: 100%; /* Batasi tinggi maksimum gambar */
+    width: 100%;
+    object-fit: cover; /* Pastikan gambar tetap rapi */
+}
+.form-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

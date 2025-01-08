@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Umroh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <div class="container row g-0">
+        <div class="col-md-6 image-section">
+            <img src="./kabah.jpg" alt="Kaaba">
+        </div>
+        <div class="col-md-6 form-section">
+            <h3>Pendaftaran Umroh</h3>
+            <p>Rencanakan Perjalanan Ibadah Anda Bersama Allah</p>
+            <form id="umrohForm">
+                <div class="mb-3">
+                    <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="namaLengkap" required
+                        placeholder="Masukkan nama lengkap Anda">
+                </div>
+                <div class="mb-3">
+                    <label for="jumlahPendaftar" class="form-label">Jumlah Pendaftar</label>
+                    <input type="number" class="form-control" id="jumlahPendaftar" required min="1"
+                        placeholder="Masukkan jumlah pendaftar">
+                </div>
+                <div class="mb-3">
+                    <label for="pilihPaket" class="form-label">Pilih Paket</label>
+                    <select class="form-select" id="pilihPaket" required>
+                        <option value="" selected disabled>Pilih salah satu paket</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="nomorRekening" class="form-label">Nomor Rekening</label>
+                    <select class="form-select" id="nomorRekening" required>
+                        <option value="" selected disabled>Pilih bank Anda</option>
+                        <option value="BCA">BCA</option>
+                        <option value="Mandiri">Mandiri</option>
+                        <option value="BSI">BSI</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="totalPembayaran" class="form-label">Total Pembayaran</label>
+                    <input type="text" class="form-control" id="totalPembayaran" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="buktiPembayaran" class="form-label">Upload Bukti Pembayaran</label>
+                    <input type="file" class="form-control" id="buktiPembayaran" accept="image/*" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Bayar</button>
+                <a href="#" class="btn btn-outline-secondary w-100 mt-2">Kembali ke Beranda</a>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
