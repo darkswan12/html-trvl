@@ -27,15 +27,6 @@ Al Falah Travel adalah penyedia layanan perjalanan ibadah umroh dan haji yang te
 - Keamanan 24 jam
 - Makanan dan minuman selama di Arab Saudi
 
-## Struktur Folder
-al-falah-travel/
-├── assets/
-│ ├── css/
-│ │ └── styles.css
-│ └── images/
-├── index.html
-└── README.md
-
 ## Styling
 Website menggunakan custom styling dengan fitur:
 - Warna tema: #00a69c
